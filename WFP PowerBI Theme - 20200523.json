@@ -1,0 +1,73 @@
+{ 
+    "name": "WFP PowerBI Theme", 
+    "dataColors": ["#0a6eb4","#19486a", "#26bde2", "#3f7e44", "#97d700", "#fcc30b", "#dda63a", "#fd6925", "#c5192d", "#a21942", "#dd1367"],
+    "background":"#FFFFFF",
+    "foreground": "#4584D3",
+    "tableAccent": "#118DFF",
+    "textClasses": {
+        "callout": {
+            "fontSize": 45,
+            "fontFace": "Open Sans Bold",
+            "color": "#252423"
+        },
+        "title": {
+            "fontSize": 14,
+            "fontFace": "Open Sans Regular",
+            "color": "#252423"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Open Sans Light",
+            "color": "#252423"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Open Sans Light",
+            "color": "#252423"
+        }
+    },
+    "visualStyles":{
+        "pieChart": {
+            "*": {
+                "legend": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "legend": [
+                    {
+                        "show": false
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "grid": [
+                    {
+                        "gridVertical": false,
+                        "gridHorizontal": false
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#ffffff"
+                            }
+                        },
+                            "backColor": {
+                                "solid": {
+                                    "color": "#0a6eb4"
+                                }
+                         }
+                    }
+                ]
+            }
+        }
+    }
+}
