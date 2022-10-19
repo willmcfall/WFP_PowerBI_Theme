@@ -1,4 +1,4 @@
-# WFP_PowerBI_Theme
+# WFP PowerBI Theme
 
 https://github.com/deldersveld/PowerBI-ThemeTemplates
 <br>
